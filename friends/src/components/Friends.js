@@ -3,6 +3,7 @@ import axiosWithAuth from "../axios/index";
 import AddFriend from "./AddFriend";
 import Friend from "./Friend";
 import NavigationCard from "./NavigationCard";
+import "../Styles/FriendCard.css";
 
 function Friends() {
   const [friends, setFriends] = useState([]);
